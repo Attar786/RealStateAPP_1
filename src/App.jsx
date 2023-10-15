@@ -1,8 +1,14 @@
 import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
-<Header></Header>
+
+    <div className="App">
+<Header/>
+<Hero/>
+    </div>
+
 
   );
 }
